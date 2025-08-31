@@ -37,11 +37,13 @@ DEBUG = getenv("DJANGO_DEBUG", "0") == "1"
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "0.0.0.0",
+    "176.58.60.54"
 ] + getenv("DJANGO_ALLOWED_HOST", "").split(",")
 
 INTERNAL_IPS = [
     "127.0.0.1",
     "0.0.0.0",
+    "176.58.60.54"
 ]
 
 if DEBUG:
