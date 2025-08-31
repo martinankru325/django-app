@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "prod"
 version = "0.1.0"
-description = ""
-authors = ["Мартин Анкру <votb02511@yandex.ru>"]
-readme = "README.md"
+description = "shopapp"
+authors = ["Martin"]
+license = "MIT"
+
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "3.8.10"
 
 
 [build-system]
